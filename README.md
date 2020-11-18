@@ -2,15 +2,15 @@
 Code for change hackathon
 
 ##  Libraries used
-Numpy
-Pandas
-OpenCV
-pdf2image
-pytesseract
-pillow
-os
-xlwt
-matplotlib
+### Numpy
+### Pandas
+### OpenCV
+### pdf2image
+### pytesseract
+### pillow
+### os
+### xlwt
+### matplotlib
 
 ## Steps for OCR
 ## 1. PDF to Image

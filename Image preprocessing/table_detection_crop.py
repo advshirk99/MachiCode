@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-sample=r'D:\Personal\Practice\CodeCell_Hackathon\img2.jpg'
+sample=r'path_to_img\img2.jpg'
 read_image= cv2.imread(sample,0)
 
 #Converting into gray-scale image

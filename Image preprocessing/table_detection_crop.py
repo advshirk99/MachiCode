@@ -60,7 +60,7 @@ for c in cont:
         final_box.append([s1,s2,s3,s4])
         idx+=1
         new_img=read_image[s2:s2+s4, s1:s1+s3]
-        cv2.imwrite('D:\\Personal\\Practice\\CodeCell_Hackathon\\cropped\\new_croppedi'+str(idx) + '.png', new_img)
+        cv2.imwrite('path_for_saving_cropped_images\\new_croppedi'+str(idx) + '.png', new_img)
 plt.imshow(rectangle_img,cmap='gray')
 plt.title("Table-Contour")
 plt.show()
